@@ -1,0 +1,15 @@
+h1,h2 {
+    background-color: rgb(242, 21, 21);color:white;
+}
+
+.name1, .name2{
+    color: greenyellow;
+}
+#School{
+    background-color: rgb(62, 7, 244);
+}
+
+.name1, .name2{
+    text-align:center;
+}
+
