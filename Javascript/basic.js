@@ -69,19 +69,20 @@
 // };
 // sub(15,10);
 
-let quantity =10;
-let name = 'Venkat';
-console.log('total chocolates', name, 'have',quantity);
-console.log('total chocolates', name, 'have',quantity);
-console.log(name,'have',quantity,'chocolates');
+// let quantity =10;
+// let name = 'Venkat';
+// console.log('total chocolates', name, 'have',quantity);
+// console.log('total chocolates', name, 'have',quantity);
+// console.log(name,'have',quantity,'chocolates');
 
 // console.log(`idfuhdfcnvl
 // gdogfhofhf
 // dfgdigdfhgdgh
 // kbodudzvzdvodh`);
-console.log(`${name} have ${quantity} chocolates`);
+// console.log(`${name} have ${quantity} chocolates`);
 
 
+  
 
 
 
