@@ -69,14 +69,45 @@
 //     console.log('give him entry pass');
 // }
 
-const name = 'Vijay'
-const cls = 10;
-if((name == 'rahul') | (cls>11)){
-    console.log('say hello to rahul');
+// const name = 'Vijay'
+// const cls = 10;
+// if((name == 'rahul') | (cls>11)){
+//     console.log('say hello to rahul');
 
-} else{
-    console.log('gud bye vijay');
-}
+// } else{
+//     console.log('gud bye vijay');
+// }
+// const array = ['venkat','ramesh', 'suresh','rakesh', 'rajesh'];
+// console.log(array);
+// array.shift();
+// console.log(array);
+// array.unshift('Venkatesh');
+// console.log(array);
+// console.log(array[1]);
+// string1 = 'ramesh';
+// string1[2] = 'k';
+// console.log(string1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
