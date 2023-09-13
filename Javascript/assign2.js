@@ -105,14 +105,38 @@
 // console.log(isprime(12));
 
 7. //writ a program to count the numer of digits in a given numbe using for loop.
-const n = 1234567890;
-let count = 0;
-let temp = n;
-while(temp !==0){
-    count++;
-    temp = Math.floor(temp/10);
+// const n = 1234567890;
+// let count = 0;
+// let temp = n;
+// while(temp !==0){
+//     count++;
+//     temp = Math.floor(temp/10);
+// }
+// console.log(count);
+
+// 8. write a program to print a pattern of using a for loop.
+ const rows = 5;
+ for (i =1; i<=rows; i++){
+    let pattern = "";
+ 
+ for(let j=1; j<=i; j++){
+    pattern +="*";
+ }
+ console.log(pattern);
 }
-console.log(count);
+
+const n = 5;
+for (i =1; i<=n; i++){
+   let pattern = "";
+
+for(let j=1; j<=i; j++){
+   pattern +="*";
+}
+console.log(pattern);
+}
+
+
+
 
 
 
