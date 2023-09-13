@@ -115,26 +115,35 @@
 // console.log(count);
 
 // 8. write a program to print a pattern of using a for loop.
- const rows = 5;
- for (i =1; i<=rows; i++){
-    let pattern = "";
+//  const rows = 5;
+//  for (i =1; i<=rows; i++){
+//     let pattern = "";
  
- for(let j=1; j<=i; j++){
-    pattern +="*";
- }
- console.log(pattern);
-}
+//  for(let j=1; j<=i; j++){
+//     pattern +="*";
+//  }
+//  console.log(pattern);
+// }
 
-const n = 5;
-for (i =1; i<=n; i++){
-   let pattern = "";
+// const n = 5;
+// for (i =1; i<=n; i++){
+//    let pattern = "";
 
-for(let j=1; j<=i; j++){
-   pattern +="*";
-}
-console.log(pattern);
-}
+// for(let j=1; j<=i; j++){
+//    pattern +="*";
+// }
+// console.log(pattern);
+// }
 
+// 9. find largest element in an array using for loop.
+const numbers = [4,7,9,3,5,8];
+let largest = numbers[0];
+for(i = 1; i<numbers.length;i++){
+    if(numbers[i]>largest){
+        largest = numbers[i];
+    }
+}
+console.log(largest);
 
 
 
