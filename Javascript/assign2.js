@@ -237,6 +237,24 @@
 
 
 // 13 Write function 'countChar' that takes a string and a charector as a input  returns the number of times that charector appears in the string.
+// model 1.
+
+// const string = "Manada Venkatesh";
+// const histogram = {};
+// for(i = 0; i<string.length; i++){
+//     const ch = string[i];
+//     if(!histogram[ch]){
+//         histogram[ch]=0;
+//     }
+//     histogram[ch]++;
+// }
+// console.log(histogram);
+
+
+
+
+
+
 
 
 
@@ -244,11 +262,6 @@
 // 14 Remove the duplicates of an Array:
 //  write a program removeduplicates that takes an array of number as input and returns a new arry with duplicate value removed.
 
-const Array = [1,2,1,3,4,3,5,6];
-function removeduplicates(arr){
-    return[...new set (Array)];
-};
-console.log(removeduplicates(Array));
 
 
 
