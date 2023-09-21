@@ -88,14 +88,40 @@ x = 2;
 // console.log(x==y);
 // console.log(x===y);
 
+// x = 3;
+// y = '3';
+// // compare value along with data type
+// console.log(x!==y);
+// console.log(x===y);
+// // compare value only
+// console.log(x==y);
+// console.log(x!=y);
+
+// x = 3;
+// y = 3;
+// console.log(x==y);
+
+// x = 3;
+// y = '3';
+// console.log(x == y); // checking values only
+// console.log(x === y); // checking both values and data type x having number datatype and y having string data type.
+
+// x = 3;
+// y = 2;
+// // console.log(x != y);
+// // console.log(x===y);
+// console.log(x == y);
+
 x = 3;
-y = '3';
-// compare value along with data type
-console.log(x!==y);
-console.log(x===y);
-// compare value only
-console.log(x==y);
-console.log(x!=y);
+y = '2';
+console.log(x != y);
+console.log(x !== y);
+
+
+
+
+
+
 
 
 
