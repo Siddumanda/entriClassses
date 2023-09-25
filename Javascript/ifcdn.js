@@ -255,6 +255,60 @@
 // const finalname = newname1 + ' ' + name22
 // console.log(finalname);
 
+// const name1 = 'venkatesh';
+// const firstletter = name1[0].toUpperCase();
+// const newname = firstletter + name1.slice(1);
+// console.log(newname);
+
+// const name2 = 'manda';
+// const secondletter = name2[0].toUpperCase();
+// const newname1 = secondletter + name2.slice(1);
+// console.log(newname1);
+// const finalname = newname + " " + newname1
+// console.log(finalname);
+
+
+// const name1 = ' venkatesh';
+// const newtrim = name1.trim();
+// console.log(newtrim);
+// const toupper = newtrim.toLocaleUpperCase();
+// console.log(toupper);
+
+// const name1= ' venkatesh';
+// const newtrim = name1.trim();
+// console.log(newtrim.toUpperCase().length);
+
+// const number = '882';
+// const number1 = number.padStart(10,'*');
+// console.log(number1);
+
+// const number = '9505725882';
+// const mobilenumber = number.slice(-3);
+// const hidemobilenumber = mobilenumber.padStart(10,'*');
+// console.log(hidemobilenumber);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
