@@ -8,6 +8,23 @@
 // if (amount <=100){
 //     console.log('I will buy dairymilk chocolate');
 // }
+// const amount = 100;
+// if(amount >=100){
+//     console.log("I will purchase silk chocolate");
+// }
+// if(amount<100){
+//     console.log("I will purchase dairymilk chocolate");
+// }
+
+// const time = 13;
+// if(time<12){
+//     console.log("Will say good Morning");
+// }else if(time<=12){
+//     console.log("Will say good afternoon");
+// }else{
+//     console.log("will say good night");
+// }
+
 
 // const caliculator = (num1,num2,operator) =>{
 //     if(operator=='+'){
@@ -286,6 +303,123 @@
 // const mobilenumber = number.slice(-3);
 // const hidemobilenumber = mobilenumber.padStart(10,'*');
 // console.log(hidemobilenumber);
+
+// const caliculator=(num1,num2,operator)=>{
+//   if(operator=="+"){
+//     return num1+num2;
+//   }else if(operator=='-'){
+//     return num1-num2;
+//   }else if(operator=="*"){
+//     return num1*num2 ;
+//   }else{
+//     console.log('give the currect operator');
+//   }
+
+// }
+// const output= caliculator(20,30,'+');
+// console.log('output:',output);
+// if(true){
+//     console.log('venkatesh');
+// }
+
+// const name = 'venkatesh';
+// const std = 5;
+// if((name == 'venkatesh') & (std<=5)){
+//     console.log('give him entry pass');
+// }
+
+// const name1 = 'Venkatesh';
+// const std = 10;
+// if((name1 == 'Ramesh') |(std==11)){
+//     console.log('give him entry pass');
+// }else{
+//     console.log('Enter any of the currect value which you named above');
+// }
+//  const array1 = ['rakesh','rajesh',22,33, 'Ramesh','ramu'];
+//  console.log(array1.length);
+//  console.log(array1[7]);
+//  console.log(array1[array1.length-1]);
+// array1.push('history');
+// console.log(array1);
+// array1.push('suresh');
+// console.log(array1);
+// console.log(array1);
+// array1.pop();
+// array1.pop();
+// console.log(array1);
+// array1.shift();
+// array1.shift();
+// console.log(array1);
+// array1.unshift('venkatesh');
+// console.log(array1);
+// array1[1]= 'rahul';
+// console.log(array1);
+// const string1 = "rajesh";
+// string1[1]="k";
+// console.log(string1);
+
+// const name3 = 'Rajesh';
+// console.log(name3);
+// name3[2] = "m";
+// console.log(name3 + " " + "kumar");
+// let text = ' please visit Microsoft! and every one has to follow microsoft website';
+// let newtext = text.replace(/Microsoft/gi,"W3schools");
+// console.log(newtext);
+
+// const name1 = 'rakesh';
+// console.log('before',name1);
+// const newname = name1[0].toUpperCase() + name1.slice(1);
+// console.log('after',newname);
+
+// const firstname = '   rakesh';
+// console.log(firstname);
+// // console.log(firstname.length)
+// console.log(firstname.trim().length);
+
+// let numb = 5;
+// let text = numb.toString();
+// console.log(typeof(text));
+
+// const mobile = '9505725882';
+// const last3digits = mobile.slice(-3);
+// console.log(last3digits);
+// const padd = last3digits.padStart(mobile.length,'*');
+// console.log(padd);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 
 
 
