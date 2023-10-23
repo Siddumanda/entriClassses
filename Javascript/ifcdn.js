@@ -385,6 +385,14 @@
 // console.log(last3digits);
 // const padd = last3digits.padStart(mobile.length,'*');
 // console.log(padd);
+const mobilenumber = '95057258826464';
+const last3digits = mobilenumber.slice(-3);
+console.log(last3digits);
+const hidemobilenumber = last3digits.padStart(mobilenumber.length,'@');
+console.log(hidemobilenumber);
+
+
+
 
 
 
