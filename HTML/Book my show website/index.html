@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dedce7;
+        }
+
+        header {
+            background-color: #333;
+            color: rgb(223, 223, 11);
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .movie-card {
+            width: 300px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .movie-card:hover {
+            transform: scale(1.05);
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .movie-details {
+            padding: 10px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BookMyShow Clone</h1>
+    </header>
+
+    <section>
+        <div class="movie-card">
+            <img src="https://i.ytimg.com/vi/_M7KU3iQtnA/maxresdefault.jpg" alt="Guntur Karam">
+            <div class="movie-details">
+                <h2>Guntur Karam</h2>
+                <p>Genre: Comedy</p>
+                <p>Rating: 4.5/5</p>
+                <p>Price :250/-</p>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHkV5gxbxadd0HMu_nH6Nu-RrfZVqaiuNdOt8Zv5675qjkTr_ve9tk3vaLmDxZLcn42Co&usqp=CAU" alt="Salaar">
+            <div class="movie-details">
+                <h2>Salaar</h2>
+                <p>Genre: Action</p>
+                <p>Rating: 3.8/5</p>
+                <p>Price :250/-</p>
+            </div>
+        </div>
+
+        <!-- Add more movie cards as needed -->
+
+    </section>
+
+</body>
+</html>
